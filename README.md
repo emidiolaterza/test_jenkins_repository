@@ -25,4 +25,6 @@ Per automatizzare il trigger della jenkins pipeline con un push sul repository d
 Si va su github  --> settings-->webook-->add webooks   qui descrive tutto https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project <br>
 nel payload si mette l'indirizzo di jenkins che nn può essere  localhost:8080. <br> 
 quindi per esporre il localhost su internet abbiamo usato ngrok , qui i dettagli https://blog.knoldus.com/setting-up-github-webhook-for-localhost/ <br>
-e messo l'indirizzo staccato da ngrok
+si invia il comando http 80   e ngrok staccherà un indirizzo che metteremo su github
+https://c535-93-66-200-92.eu.ngrok.io/github-webhook/
+e messo l'indirizzo staccato da ngrok  
