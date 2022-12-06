@@ -22,7 +22,7 @@ Per poter fare tutto bisogna:
     -  Docker build step 
     
 Per automatizzare il trigger della jenkins pipeline con un push sul repository di github bisogna collegare Github con Jenkins. <br>
-Si va su github  --> settings-->webook-->add webooks  <br> 
+Si va su github  --> settings-->webook-->add webooks   qui descrive tutto https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project <br>
 nel payload si mette l'indirizzo di jenkins che nn può essere  localhost:8080. <br> 
 quindi per esporre il localhost su internet abbiamo usato ngrok , qui i dettagli https://blog.knoldus.com/setting-up-github-webhook-for-localhost/ <br>
 e messo l'indirizzo staccato da ngrok
